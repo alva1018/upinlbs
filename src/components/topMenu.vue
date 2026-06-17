@@ -55,12 +55,10 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
         aria-label="PolyU-Hefei Technology and Innovation Research Institute"
       >
         <img
-          class="logo-mark"
-          src="../../public/img/upinlbs-mark.svg"
-          alt=""
-          aria-hidden="true"
+          class="logo-image"
+          src="../../public/img/logo.png"
+          alt="UPINLBS 2026"
         />
-        <span class="logo-wordmark">UPINLBS 2026</span>
       </a>
 
       <nav class="desktop-menu" aria-label="Primary navigation">
@@ -122,7 +120,6 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
   display: flex;
   align-items: center;
   flex: 0 0 auto;
-  gap: 9px;
   padding: 0;
 }
 
@@ -130,22 +127,11 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
   background: transparent;
 }
 
-.logo-mark {
+.logo-image {
   width: auto;
-  height: 54px;
+  height: 58px;
   display: block;
   filter: drop-shadow(0 4px 10px rgba(8, 39, 68, 0.12));
-}
-
-.logo-wordmark {
-  color: #57648c;
-  font-size: 30px;
-  font-weight: 900;
-  font-style: italic;
-  line-height: 1;
-  letter-spacing: 0;
-  text-shadow: 0 2px 8px rgba(87, 100, 140, 0.16);
-  white-space: nowrap;
 }
 
 .desktop-menu {
@@ -267,12 +253,8 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
     height: 68px;
   }
 
-  .logo-mark {
-    height: 48px;
-  }
-
-  .logo-wordmark {
-    font-size: 26px;
+  .logo-image {
+    height: 50px;
   }
 
   .desktop-menu {
@@ -289,16 +271,8 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
 }
 
 @media (max-width: 420px) {
-  .logo-link {
-    gap: 6px;
-  }
-
-  .logo-mark {
-    height: 42px;
-  }
-
-  .logo-wordmark {
-    font-size: 22px;
+  .logo-image {
+    height: 43px;
   }
 }
 </style>

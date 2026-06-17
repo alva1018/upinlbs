@@ -48,6 +48,7 @@ generated/
 build_upinlbs_docs.py
 committee.png
 Picture14.png
+/logo.png
 _logo_extract_preview/
 
 # Unused public assets kept locally for reference
@@ -60,5 +61,6 @@ public/img/QRcode.png
 public/img/r-step1.jpg
 public/img/r-step2.jpg
 public/img/school-1111.png
+public/img/upinlbs-mark.svg
 src/assets/logo.svg
 src/components/icons/
