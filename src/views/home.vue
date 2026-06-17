@@ -85,7 +85,11 @@
       <section class="content-item">
         <h2 class="content-item-title">Past Conferences</h2>
         <div class="content-item-s2">
-          <p>UPINLBS 2025</p>
+          <p>
+            <a href="https://upinlbs2025.ubinp.com/" target="_blank" rel="noopener noreferrer">
+              UPINLBS 2025
+            </a>
+          </p>
           <p>UPINLBS 2024</p>
           <p>UPINLBS 2022</p>
           <p>UPINLBS 2019</p>

@@ -42,12 +42,16 @@ __screenshots__/
 *.zip
 *.rar
 *.pdf
+*.pptx
 generated/
 国际会议模板/
 build_upinlbs_docs.py
 committee.png
+Picture14.png
+_logo_extract_preview/
 
 # Unused public assets kept locally for reference
+public/img/Picture14.png
 public/img/banner12.jpg
 public/img/Picture8.svg
 public/img/Picture9.png
