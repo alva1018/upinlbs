@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+.eslintcache
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Vitest
+__screenshots__/
+
+# Vite
+*.timestamp-*-*.mjs
+
+# Local archives and generated conference materials
+*.zip
+*.rar
+*.pdf
+generated/
+国际会议模板/
+build_upinlbs_docs.py
+committee.png
+
+# Unused public assets kept locally for reference
+public/img/banner12.jpg
+public/img/Picture8.svg
+public/img/Picture9.png
+public/img/Picture9.svg
+public/img/QRcode.png
+public/img/r-step1.jpg
+public/img/r-step2.jpg
+public/img/school-1111.png
+src/assets/logo.svg
+src/components/icons/
