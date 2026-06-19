@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import home from '../views/home.vue'
-import competition from '../views/competition.vue'
 import generalinformation from '../views/generalinformation.vue'
 import keynoteProgrammes from '../views/keynoteProgrammes.vue'
 import posterSessions from '../views/posterSessions.vue'
@@ -23,11 +22,6 @@ const router = createRouter({
       path: '/generalinformation',
       name: 'generalinformation',
       component: generalinformation,
-    },
-        {
-      path: '/competition',
-      name: 'competition',
-      component: competition,
     },
         {
       path: '/keynoteProgrammes',
