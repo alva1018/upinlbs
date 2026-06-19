@@ -3,13 +3,13 @@
     <h1 class="page-title">Sponsors</h1>
     <section class="sponsor-grid" aria-label="Conference sponsors">
       <div class="sponsor-card">
-        <img src="../../public/img/school-1.png" alt="Sponsor logo" />
+        <img src="../../public/img/polyu-hefei-logo-hori.png" alt="Sponsor logo" />
       </div>
       <div class="sponsor-card">
-        <img src="../../public/img/school-1.png" alt="Sponsor logo" />
+        <img src="../../public/img//anhui-university-logo.png" alt="Sponsor logo" />
       </div>
       <div class="sponsor-card">
-        <img src="../../public/img/school-1.png" alt="Sponsor logo" />
+        <img src="../../public/img/China_Construction_Bank.svg" alt="Sponsor logo" />
       </div>
       <div class="sponsor-card">
         <img src="../../public/img/school-1.png" alt="Sponsor logo" />

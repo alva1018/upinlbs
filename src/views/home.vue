@@ -61,9 +61,9 @@
         submit contributions and participate in the event.
       </p>
       <p class="publication-note">
-        <strong>Publication:</strong> All peer-reviewed and registered full
-        papers (up to 6 pages) presented at UPINLBS 2026 will be included in
-        the IEEE Xplore Digital Library and indexed by EI Compendex.
+        <strong>Publication:</strong> All peer-reviewed and registered full 
+        papers (up to 6 pages) presented at UPINLBS 2026 are eligible for 
+        inclusion in the IEEE Xplore Digital Library and indexing by EI Compendex.
       </p>
     </section>
 

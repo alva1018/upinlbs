@@ -5,7 +5,7 @@
       <p class="content-text">
         The 10th IEEE International Conference on Ubiquitous Positioning, Indoor
         Navigation and Location-Based Services (UPINLBS 2026) will focus on the
-        theme of <b>"Next Generation of Positioning" </b>to further advance the
+        theme of <b>"Next Generation of Positioning and Navigation Systems" </b>to further advance the
         research in ubiquitous positioning with special attention on new
         positioning applications. This conference will provide a platform for
         academic exchange and dissemination of research findings. It will be held
@@ -19,7 +19,7 @@
 
       <p class="content-title">Main Theme:</p>
       <div class="jieshao">
-        <b>Next Generation Positioning and Navigation Systems</b>
+        <b>Next Generation of Positioning and Navigation Systems</b>
         <p>Conference will cover, but not limited to, the following topics:</p>
       </div>
 
@@ -198,15 +198,15 @@
                 <div class="event-col">Event</div>
               </div>
               <div class="event-row">
-                <div class="time-col">14:00-15:00</div>
+                <div class="time-col">14:00-15:30</div>
                 <div class="event-col">Industry Forum</div>
               </div>
               <div class="event-row">
-                <div class="time-col">15:00-15:30</div>
+                <div class="time-col">15:30-16:00</div>
                 <div class="event-col">Coffee Break</div>
               </div>
               <div class="event-row">
-                <div class="time-col">15:30-17:30</div>
+                <div class="time-col">16:00-17:30</div>
                 <div class="event-col">Industry Forum</div>
               </div>
             </div>
@@ -235,9 +235,8 @@
           <div class="member-info">
             <p class="member-name">Prof. Wu Chen</p>
             <p class="member-affiliation">
-              PolyU-Hefei Technology and Innovation Research Institute;
-              Department of Land Surveying and Geo-Informatics, The Hong Kong
-              Polytechnic University
+              PolyU-Hefei Technology and Innovation Research Institute,
+              The Hong Kong Polytechnic University
             </p>
           </div>
         </div>
@@ -247,8 +246,7 @@
           <div class="member-info">
             <p class="member-name">Prof. Wen Liu</p>
             <p class="member-affiliation">
-              PolyU-Hefei Technology and Innovation Research Institute, The Hong
-              Kong Polytechnic University
+              PolyU-Hefei Technology and Innovation Research Institute
             </p>
           </div>
           <div class="member-info">
@@ -271,77 +269,81 @@
             <p class="member-name">Prof. Hailong Huang</p>
             <p class="member-affiliation">
               PolyU-Hefei Technology and Innovation Research Institute;
-              Department of Aeronautical and Aviation Engineering, The Hong Kong
-              Polytechnic University
+              The Hong Kong Polytechnic University
             </p>
           </div>
         </div>
 
         <div class="committee-category">
-          <h3 class="category-title">Technical Program Committee</h3>
-          <div class="committee-list">
-            <div class="committee-member">
-              <span class="member-name">Ruizhi Chen</span>
-              <span class="member-affiliation"
-                >The Chinese University of Hong Kong, Shenzhen</span
-              >
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Wu Chen</span>
-              <span class="member-affiliation"
-                >The Hong Kong Polytechnic University</span
-              >
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Wen Liu</span>
-              <span class="member-affiliation"
-                >PolyU-Hefei Technology and Innovation Research Institute, The
-                Hong Kong Polytechnic University</span
-              >
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Liang Chen</span>
-              <span class="member-affiliation">Wuhan University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Xiaoji Niu</span>
-              <span class="member-affiliation">Wuhan University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Yingsong Li</span>
-              <span class="member-affiliation">Anhui University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Hailong Huang</span>
-              <span class="member-affiliation"
-                >The Hong Kong Polytechnic University</span
-              >
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Xiaolin Meng</span>
-              <span class="member-affiliation">Southeast University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Shaojun Feng</span>
-              <span class="member-affiliation">Southeast University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Chuang Shi</span>
-              <span class="member-affiliation">Beihang University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Jiale Wang</span>
-              <span class="member-affiliation">Beihang University</span>
-            </div>
-            <div class="committee-member">
-              <span class="member-name">Qiang Zhang</span>
-              <span class="member-affiliation"
-                >Shanghai Institute for Advanced Studies, University of Science
-                and Technology of China</span
-              >
-            </div>
-          </div>
-        </div>
+  <h3 class="category-title">Technical Program Committee</h3>
+  <div class="committee-list">
+    <div class="committee-member">
+      <span class="member-name">Chuang Shi</span>
+      <span class="member-affiliation">Beihang University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Ruizhi Chen</span>
+      <span class="member-affiliation">The Chinese University of Hong Kong, Shenzhen</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Wu Chen</span>
+      <span class="member-affiliation">The Hong Kong Polytechnic University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Wen Liu</span>
+      <span class="member-affiliation"
+        >PolyU-Hefei Technology and Innovation Research Institute</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Liang Chen</span>
+      <span class="member-affiliation">Wuhan University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Yingsong Li</span>
+      <span class="member-affiliation">Anhui University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Hailong Huang</span>
+      <span class="member-affiliation">The Hong Kong Polytechnic University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Shuguo PAN</span>
+      <span class="member-affiliation">Southeast University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Zhiwen PAN</span>
+      <span class="member-affiliation">Southeast University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Jiale Wang</span>
+      <span class="member-affiliation">Beihang University</span>
+    </div>
+    <!-- <div class="committee-member">
+      <span class="member-name">Xiaolin Meng</span>
+      <span class="member-affiliation">Southeast University</span>
+    </div> -->
+    <!-- <div class="committee-member">
+      <span class="member-name">Shaojun Feng</span>
+      <span class="member-affiliation">Southeast University</span>
+    </div> -->
+    <div class="committee-member">
+      <span class="member-name">Jingxian Wang</span>
+      <span class="member-affiliation">Shanghai University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Yue Yu</span>
+      <span class="member-affiliation">The Hong Kong Polytechnic University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Yang Yang</span>
+      <span class="member-affiliation">The Hong Kong Polytechnic University</span>
+    </div>
+    <div class="committee-member">
+      <span class="member-name">Mengyu Ding</span>
+      <span class="member-affiliation">The Hong Kong Polytechnic University</span>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   </div>

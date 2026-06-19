@@ -20,6 +20,9 @@
           </tr>
         </tbody>
       </table>
+      <p class="registration-placeholder">
+        The registration link will be available shortly.
+      </p>
     </section>
   </div>
 </template>
@@ -65,6 +68,14 @@
 
 .fee-table tr:last-child td {
   border-bottom: none;
+}
+
+.registration-placeholder {
+  margin: 22px 0 0;
+  color: var(--color-primary-strong);
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
 }
 
 @media (max-width: 560px) {

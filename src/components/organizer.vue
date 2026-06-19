@@ -12,7 +12,8 @@
           rel="noopener noreferrer"
         >
           <img
-            src="../../public/img/school-2.png"
+            class="polyuhfri-logo"
+            src="../../public/img/school-2-footer.png"
             alt="PolyU-Hefei Technology and Innovation Research Institute"
           />
         </a>
@@ -67,6 +68,9 @@
 }
 
 .organizer-list img {
+  display: block;
+  width: 100%;
+  max-width: 520px;
   max-height: 84px;
   object-fit: contain;
 }
