@@ -91,9 +91,14 @@
     <section class="guidelines-grid">
       <div class="section">
         <h2 class="section-title">Where to Submit</h2>
-        <p class="section-text">
-          The CMT submission link will be available shortly.
-        </p>
+        <a
+          class="submission-link"
+          href="https://cmt3.research.microsoft.com/UPINLBS2026"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Submit via Microsoft CMT
+        </a>
       </div>
 
       <div class="section">
@@ -115,7 +120,8 @@
             rel="noopener noreferrer"
           >
             CMT author submission guide</a
-          >.
+          >. In CMT, please select the appropriate submission type: Full Paper
+          or Abstract-only Submission.
         </p>
       </div>
     </section>
@@ -184,6 +190,23 @@
   color: var(--color-text-muted);
   font-size: 16px;
   line-height: 1.75;
+}
+
+.submission-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 18px;
+  color: #fff;
+  font-weight: 740;
+  background: var(--color-primary);
+  border-radius: 6px;
+}
+
+.submission-link:hover {
+  color: #fff;
+  background: var(--color-primary-strong);
 }
 
 @media (max-width: 780px) {

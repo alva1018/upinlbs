@@ -47,10 +47,7 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
 <template>
   <div class="navbar">
     <header class="header">
-      <a
-        href="https://polyu-hfri.com/polyU_hefei/"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
         class="logo-link"
         aria-label="PolyU-Hefei Technology and Innovation Research Institute"
       >
@@ -59,7 +56,7 @@ watch(() => route.path, syncCurrentRoute, { immediate: true });
           src="../../public/img/logo.png"
           alt="UPINLBS 2026"
         />
-      </a>
+      </div>
 
       <nav class="desktop-menu" aria-label="Primary navigation">
         <a-menu

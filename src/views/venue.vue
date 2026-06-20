@@ -1,16 +1,3 @@
-<script setup>
-import { ref } from "vue";
-
-const initialMapSrc =
-  "https://www.openstreetmap.org/export/embed.html?bbox=117.17691%2C31.75608%2C117.18891%2C31.76448&layer=mapnik&marker=31.76028%2C117.18291";
-
-const mapFrameKey = ref(0);
-
-function resetMapView() {
-  mapFrameKey.value += 1;
-}
-</script>
-
 <template>
   <div class="venue page-shell">
     <section class="venue-hero page-card">
@@ -42,20 +29,14 @@ function resetMapView() {
       </div>
 
       <div class="map-frame" aria-label="Map showing Anhui University Qingyuan Campus">
-        <button class="map-reset" type="button" aria-label="Reset map view" @click="resetMapView">
-          <span aria-hidden="true"></span>
-        </button>
-        <iframe
-          :key="mapFrameKey"
-          title="Anhui University Qingyuan Campus map"
-          :src="initialMapSrc"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <img
+          src="/img/map.png"
+          alt="Static map of Anhui University Qingyuan Campus and the surrounding area"
+        />
       </div>
 
       <p class="map-fallback">
-        If the embedded map does not load, use the
+        For navigation, use the
         <a
           href="https://uri.amap.com/search?keyword=%E5%AE%89%E5%BE%BD%E5%A4%A7%E5%AD%A6%E7%A3%AC%E8%8B%91%E6%A0%A1%E5%8C%BA%20%E6%9D%90%E6%96%99%E7%A7%91%E5%AD%A6%E5%A4%A7%E6%A5%BC"
           target="_blank"
@@ -228,7 +209,6 @@ function resetMapView() {
 }
 
 .map-frame {
-  position: relative;
   overflow: hidden;
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -238,42 +218,11 @@ function resetMapView() {
   background: #f8fbfd;
 }
 
-.map-frame iframe {
-  position: absolute;
-  inset: 0;
+.map-frame img {
   width: 100%;
   height: 100%;
-  border: 0;
-}
-
-.map-reset {
-  position: absolute;
-  top: 72px;
-  right: 10px;
-  z-index: 2;
-  display: grid;
-  place-items: center;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-  background: #fff;
-  border: 1px solid #bbb;
-  border-radius: 2px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
-
-.map-reset:hover {
-  background: #f4f4f4;
-}
-
-.map-reset span {
-  width: 10px;
-  height: 10px;
-  background: var(--color-primary);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 0 2px var(--color-primary);
+  display: block;
+  object-fit: cover;
 }
 
 .map-fallback {
